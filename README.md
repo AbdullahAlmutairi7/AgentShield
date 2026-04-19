@@ -1,8 +1,5 @@
-Here’s a **clean, concise, copy-paste ready README** that reflects your final architecture (including the LLM policy judge + automation script). It’s written so even someone new can run it end-to-end.
 
----
-
-# 🛡️ AgentShield
+## 🛡️ AgentShield
 
 **AgentShield** is a real-time security layer for autonomous AI agents (e.g., OpenClaw) that detects and blocks:
 
@@ -16,7 +13,7 @@ It combines **rule-based enforcement** with a **Gemini-powered LLM policy judge*
 
 ---
 
-# 🚀 Key Features
+## 🚀 Key Features
 
 ### 🔐 Policy Enforcement Engine
 
@@ -66,7 +63,7 @@ User → OpenClaw → AgentShield → Gemini
 
 ---
 
-# 📦 Requirements
+## 📦 Requirements
 
 * Linux (Kali/Ubuntu recommended)
 * Python 3.10+
@@ -75,7 +72,7 @@ User → OpenClaw → AgentShield → Gemini
 
 ---
 
-# ⚡ One-Command Setup (Recommended)
+## ⚡ One-Command Setup (Recommended)
 
 ```bash
 cd ~/AgentShield
@@ -93,7 +90,7 @@ This script will:
 
 ---
 
-# 🔁 IMPORTANT (After Setup)
+## 🔁 IMPORTANT (After Setup)
 
 Restart OpenClaw so it uses AgentShield:
 
@@ -103,7 +100,7 @@ Restart OpenClaw so it uses AgentShield:
 
 ---
 
-# 🌐 Access Dashboard
+## 🌐 Access Dashboard
 
 ```
 http://127.0.0.1:8787/
@@ -111,7 +108,7 @@ http://127.0.0.1:8787/
 
 ---
 
-# 🧪 Testing
+## 🧪 Testing
 
 ### ✅ Safe prompt
 
@@ -134,7 +131,7 @@ Reason: LLM judge flagged request as malicious
 
 ---
 
-# ⚙️ Environment Configuration
+## ⚙️ Environment Configuration
 
 Saved automatically in:
 
@@ -154,7 +151,7 @@ AGENTSHIELD_LLM_JUDGE_THRESHOLD=0.78
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```
 agentshield/
@@ -168,7 +165,7 @@ agentshield/
 
 ---
 
-# 🧩 Key Files
+## 🧩 Key Files
 
 * `precheck.py` → enforcement pipeline
 * `llm_policy_judge.py` → Gemini decision engine
@@ -177,7 +174,7 @@ agentshield/
 
 ---
 
-# 🧯 Troubleshooting
+## 🧯 Troubleshooting
 
 ### ❌ No traffic in dashboard
 
@@ -207,7 +204,7 @@ AGENTSHIELD_LLM_JUDGE_ENABLED=true
 
 ---
 
-# 🔒 Security Model
+## 🔒 Security Model
 
 | Layer        | Purpose                        |
 | ------------ | ------------------------------ |
@@ -218,7 +215,7 @@ AGENTSHIELD_LLM_JUDGE_ENABLED=true
 
 ---
 
-# 🧠 Why This Matters
+## 🧠 Why This Matters
 
 Traditional filters fail against:
 
