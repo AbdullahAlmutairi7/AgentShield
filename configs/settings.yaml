@@ -1,0 +1,23 @@
+app:
+  name: AgentShield
+  version: 0.1.0
+  mode: development
+  log_level: info
+database:
+  url: sqlite:///agentshield.db
+proxy:
+  host: 127.0.0.1
+  port: 8787
+  upstream_provider: google
+  upstream_base_url: https://generativelanguage.googleapis.com
+  default_model: google/gemini-2.5-flash-lite
+policy:
+  mode: enforce
+  default_decision: observe
+telemetry:
+  process_monitoring: true
+  file_monitoring: true
+  network_monitoring: true
+ui:
+  host: 127.0.0.1
+  port: 3000

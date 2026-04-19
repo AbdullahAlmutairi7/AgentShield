@@ -1,0 +1,49 @@
+protected_paths:
+  - "/home/peter/.ssh"
+  - "/home/peter/.aws"
+  - "/home/peter/.gnupg"
+  - "/home/peter/.config/gcloud"
+  - "/root/.ssh"
+  - "/etc/ssh"
+
+blocked_command_patterns:
+  - "rm -rf"
+  - "curl .*webhook.site"
+  - "curl .*requestcatcher"
+  - "cat /home/peter/.ssh"
+  - "cat ~/.ssh"
+  - "grep .*PRIVATE KEY"
+  - "find / -name id_rsa"
+  - "find /home -name .*\\.pem"
+  - "tar .*\\.ssh"
+  - "scp .*id_rsa"
+  - "chmod 777 /etc/passwd"
+
+blocked_domains:
+  - "webhook.site"
+  - "requestcatcher.com"
+  - "paste.rs"
+  - "transfer.sh"
+
+approval_required_tools:
+  - "exec"
+  - "shell.exec"
+  - "terminal.exec"
+  - "browser.open_external"
+  - "http.request"
+  - "curl.run"
+
+high_risk_keywords:
+  - "private key"
+  - "ssh key"
+  - "api key"
+  - "secrets"
+  - "token"
+  - "credentials"
+  - "exfiltrate"
+  - "webhook"
+  - "upload"
+  - "steal"
+
+reviewed_session_behavior:
+  downgrade_warn_to_observe: true

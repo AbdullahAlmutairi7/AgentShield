@@ -1,0 +1,7 @@
+export GEMINI_API_KEY='AIzaSyCU8b44Ev7g4o68lnrdWFR8SvzYGSSNrqM'
+export GEMINI_POLICY_API_KEY='AIzaSyCU8b44Ev7g4o68lnrdWFR8SvzYGSSNrqM'
+export GEMINI_POLICY_MODEL='gemini-3.1-flash-lite-preview'
+export GEMINI_POLICY_BASE_URL='https://generativelanguage.googleapis.com'
+export AGENTSHIELD_LLM_JUDGE_ENABLED='true'
+export AGENTSHIELD_LLM_JUDGE_THRESHOLD='0.78'
+export AGENTSHIELD_LLM_JUDGE_FAIL_CLOSED='false'

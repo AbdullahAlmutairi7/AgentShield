@@ -1,0 +1,88 @@
+{
+  "totals": {
+    "events": 808,
+    "blocked_events": 0,
+    "sessions": 3,
+    "high_risk_sessions": 0,
+    "blocked_sessions": 0,
+    "alerts": 0,
+    "max_risk_score": 0.2
+  },
+  "breakdowns": {
+    "by_severity": {
+      "info": 735,
+      "medium": 10,
+      "low": 63
+    },
+    "by_event_type": {
+      "status_event": 1,
+      "process_event": 677,
+      "network_event": 130
+    },
+    "by_source_layer": {
+      "collector": 808
+    }
+  },
+  "top_risky_sessions": [
+    {
+      "session_id": "host-process-monitor",
+      "agent_id": "host",
+      "agent_name": "Linux Process Collector",
+      "event_count": 677,
+      "blocked_count": 0,
+      "max_risk_score": 0.2,
+      "max_anomaly_score": 0.0,
+      "max_drift_score": 0.0,
+      "max_trust_grade": "NORMAL",
+      "severities": {
+        "info": 667,
+        "medium": 10
+      },
+      "event_types": {
+        "process_event": 677
+      },
+      "started_at": "2026-04-17T21:21:52.135049+00:00",
+      "last_seen_at": "2026-04-17T22:11:52.445889+00:00"
+    },
+    {
+      "session_id": "host-network-monitor",
+      "agent_id": "host",
+      "agent_name": "Linux Network Collector",
+      "event_count": 130,
+      "blocked_count": 0,
+      "max_risk_score": 0.0,
+      "max_anomaly_score": 0.0,
+      "max_drift_score": 0.0,
+      "max_trust_grade": "NORMAL",
+      "severities": {
+        "info": 67,
+        "low": 63
+      },
+      "event_types": {
+        "network_event": 130
+      },
+      "started_at": "2026-04-17T21:21:52.399357+00:00",
+      "last_seen_at": "2026-04-17T22:11:52.461322+00:00"
+    },
+    {
+      "session_id": "system-bootstrap",
+      "agent_id": "unknown_agent",
+      "agent_name": null,
+      "event_count": 1,
+      "blocked_count": 0,
+      "max_risk_score": 0.0,
+      "max_anomaly_score": 0.0,
+      "max_drift_score": 0.0,
+      "max_trust_grade": null,
+      "severities": {
+        "info": 1
+      },
+      "event_types": {
+        "status_event": 1
+      },
+      "started_at": "2026-04-17T21:21:21.217085+00:00",
+      "last_seen_at": "2026-04-17T21:21:21.217085+00:00"
+    }
+  ],
+  "top_blocked_sessions": []
+}

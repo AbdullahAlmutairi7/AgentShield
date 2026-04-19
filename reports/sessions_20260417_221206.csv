@@ -1,0 +1,4 @@
+agent_id,agent_name,blocked_count,event_count,event_types,last_seen_at,max_anomaly_score,max_drift_score,max_risk_score,max_trust_grade,quarantined,reviewed,session_id,severities,started_at
+host,Linux Network Collector,0,130,{'network_event': 130},2026-04-17T22:11:52.461322+00:00,0.0,0.0,0.0,NORMAL,False,False,host-network-monitor,"{'info': 67, 'low': 63}",2026-04-17T21:21:52.399357+00:00
+host,Linux Process Collector,0,677,{'process_event': 677},2026-04-17T22:11:52.445889+00:00,0.0,0.0,0.2,NORMAL,False,False,host-process-monitor,"{'info': 667, 'medium': 10}",2026-04-17T21:21:52.135049+00:00
+unknown_agent,,0,1,{'status_event': 1},2026-04-17T21:21:21.217085+00:00,0.0,0.0,0.0,,False,False,system-bootstrap,{'info': 1},2026-04-17T21:21:21.217085+00:00

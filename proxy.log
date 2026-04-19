@@ -1,0 +1,611 @@
+INFO:     Will watch for changes in these directories: ['/home/kali/AgentShield']
+INFO:     Uvicorn running on http://127.0.0.1:8787 (Press CTRL+C to quit)
+INFO:     Started reloader process [257712] using StatReload
+INFO:     Started server process [257721]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] POST /models/gemini-2.5-flash-lite:streamGenerateContent
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] upstream status=200
+INFO:     127.0.0.1:55010 - "POST /models/gemini-2.5-flash-lite%3AstreamGenerateContent?alt=sse HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] POST /models/gemini-2.5-flash-lite:streamGenerateContent
+INFO:     127.0.0.1:33774 - "POST /models/gemini-2.5-flash-lite%3AstreamGenerateContent?alt=sse HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/summary
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/summary HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/recent-events
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/recent-events?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/sessions
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/sessions?limit=20 HTTP/1.1" 200 OK
+[AgentShield] GET /api/dashboard/alerts
+INFO:     127.0.0.1:47762 - "GET /api/dashboard/alerts?limit=10 HTTP/1.1" 200 OK
+[AgentShield] GET /api/operator/actions
+INFO:     127.0.0.1:47762 - "GET /api/operator/actions?limit=20 HTTP/1.1" 200 OK

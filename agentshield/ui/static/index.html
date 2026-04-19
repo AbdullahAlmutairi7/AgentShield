@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgentShield Dashboard</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>AgentShield</h1>
+      <p class="subtitle">Unified runtime protection, detection, prevention, and host monitoring</p>
+    </div>
+    <div class="topbar-right">
+      <div class="status-pill">LIVE</div>
+      <div class="refresh-note" id="refresh-note">Auto-refreshing...</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="cards">
+      <div class="card metric"><h3>Total Events</h3><p id="total-events">-</p></div>
+      <div class="card metric blocked"><h3>Blocked Events</h3><p id="blocked-events">-</p></div>
+      <div class="card metric"><h3>Sessions</h3><p id="sessions-count">-</p></div>
+      <div class="card metric risk"><h3>High Risk Sessions</h3><p id="high-risk-sessions">-</p></div>
+      <div class="card metric"><h3>Alerts</h3><p id="alerts-count">-</p></div>
+      <div class="card metric"><h3>Max Risk Score</h3><p id="max-risk-score">-</p></div>
+    </section>
+
+    <section class="status-strip panel">
+      <div class="status-item">
+        <span class="label">Runtime</span>
+        <span class="value good">ACTIVE</span>
+      </div>
+      <div class="status-item">
+        <span class="label">Policy Engine</span>
+        <span class="value warn">ENFORCING</span>
+      </div>
+      <div class="status-item">
+        <span class="label">Host Telemetry</span>
+        <span class="value good">ACTIVE</span>
+      </div>
+      <div class="status-item">
+        <span class="label">Last Refresh</span>
+        <span class="value" id="last-refresh">-</span>
+      </div>
+    </section>
+
+    <section class="grid-3">
+      <section class="panel">
+        <div class="panel-header"><h2>Alert Feed</h2></div>
+        <div id="alerts-list" class="alerts-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header"><h2>Top Risky Sessions</h2></div>
+        <div id="top-risky-box" class="mini-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header"><h2>Top Blocked Sessions</h2></div>
+        <div id="top-blocked-box" class="mini-list"></div>
+      </section>
+    </section>
+
+    <section class="grid-2">
+      <section class="panel">
+        <div class="panel-header"><h2>Source Layer Breakdown</h2></div>
+        <div id="source-breakdown-box" class="detail-box"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header"><h2>Severity Breakdown</h2></div>
+        <div id="severity-breakdown-box" class="detail-box"></div>
+      </section>
+    </section>
+
+    <section class="grid-main">
+      <section class="panel">
+        <div class="panel-header"><h2>Activity Timeline</h2></div>
+        <div id="timeline-list" class="timeline-list"></div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header"><h2>Operator Action Log</h2></div>
+        <div id="operator-log-box" class="detail-box">
+          <p>No operator actions yet.</p>
+        </div>
+      </section>
+    </section>
+    
+    <section class="panel">
+      <div class="panel-header"><h2>Export Results</h2></div>
+      <div id="export-results-box" class="detail-box">
+        <p>No export actions yet.</p>
+      </div>
+    </section>
+
+    <section class="panel control-panel">
+      <div class="controls">
+        <button id="refresh-btn">Refresh Now</button>
+        <button id="export-summary-btn">Export Summary</button>
+        <button id="export-events-btn">Export Events</button>
+        <button id="export-alerts-btn">Export Alerts</button>
+        <button id="export-sessions-btn">Export Sessions</button>
+        <button id="export-session-btn">Export Selected Session</button>
+
+        <label>
+          Severity
+          <select id="severity-filter">
+            <option value="all">All</option>
+            <option value="info">Info</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+            <option value="critical">Critical</option>
+          </select>
+        </label>
+
+        <label>
+          Trust
+          <select id="trust-filter">
+            <option value="all">All</option>
+            <option value="NORMAL">Normal</option>
+            <option value="SUSPICIOUS">Suspicious</option>
+            <option value="HIGH_RISK">High Risk</option>
+            <option value="DANGER">Danger</option>
+          </select>
+        </label>
+
+        <label class="checkbox-wrap">
+          <input type="checkbox" id="blocked-only" />
+          Blocked only
+        </label>
+      </div>
+    </section>
+
+    <section class="grid-2 aligned-grid">
+      <section class="panel panel-equal">
+        <div class="panel-header"><h2>Recent Events</h2></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Session</th>
+                <th>Type</th>
+                <th>Severity</th>
+                <th>Risk</th>
+                <th>Summary</th>
+              </tr>
+            </thead>
+            <tbody id="recent-events-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel panel-equal">
+        <div class="panel-header"><h2>Sessions</h2></div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Session</th>
+                <th>Events</th>
+                <th>Blocked</th>
+                <th>Max Risk</th>
+                <th>Drift</th>
+                <th>Trust</th>
+              </tr>
+            </thead>
+            <tbody id="sessions-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+
+    <section class="grid-2 aligned-grid">
+      <section class="panel panel-equal">
+        <div class="panel-header"><h2>Selected Session</h2></div>
+        <div class="action-bar">
+          <button id="quarantine-btn">Quarantine Session</button>
+          <button id="review-btn">Mark Reviewed</button>
+          <button id="release-btn">Release Session</button>
+        </div>
+        <div id="session-detail-box" class="detail-box">
+          <p>Select a session from the Sessions table.</p>
+        </div>
+      </section>
+
+      <section class="panel panel-equal">
+        <div class="panel-header"><h2>Event Spotlight</h2></div>
+        <div class="action-bar">
+          <button id="clear-spotlight-btn">Clear Spotlight</button>
+        </div>
+        <div id="event-spotlight-box" class="detail-box">
+          <p>Select an event from the session timeline below.</p>
+        </div>
+      </section>
+    </section>
+
+    <section class="panel">
+      <div class="panel-header"><h2>Selected Session Events</h2></div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Type</th>
+              <th>Severity</th>
+              <th>Risk</th>
+              <th>Decision</th>
+              <th>Summary</th>
+            </tr>
+          </thead>
+          <tbody id="session-events-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
